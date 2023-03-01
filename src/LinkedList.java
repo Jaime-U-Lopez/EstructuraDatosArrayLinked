@@ -126,7 +126,7 @@ public class LinkedList {
 
          }
          Node concurrenciaNodos= head;
-         while (concurrenciaNodos.next.next != null ){
+         while (concurrenciaNodos.next != null ){
 
              concurrenciaNodos= concurrenciaNodos.next;
              
